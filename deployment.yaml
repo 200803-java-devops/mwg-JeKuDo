@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jekudo
+spec:
+  selector:
+    matchLabels:
+      app: jekudo
+  template:
+    metadata:
+      labels:
+        app: jekudo
+    spec:
+      volumes:
+        - name: dind-storage
+          emptyDir: {}
+      containers:
+      - name: jekudo
+        image: malokingi/i_jkd:latest
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8080
+        - containerPort: 50000
+        env:
+          - name: DOCKER_HOST
+            value: tcp://localhost:2375
+      - name: dind
+        image: docker:18.03-dind
+        securityContext:
+            privileged: true
+        volumeMounts:
+          - name: dind-storage
+            mountPath: var/lib/docker
+        resources:
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
