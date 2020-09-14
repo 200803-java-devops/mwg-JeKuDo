@@ -1,0 +1,408 @@
+    1  help
+    2  help
+    3  exit
+    4  dir
+    5  cd C\code
+    6  mkdir hello-maven
+    7  cd hello-maven/
+    8  ls
+    9  notepad pom.xml
+   10  ls
+   11  mvn verify
+   12  ls
+   13  notepad pom.xml
+   14  mvn verify
+   15  ls ../.m2
+   16  ls ../.m2/repository/
+   17  notepad pom.xml
+   18  ls ../.m2/repository/junit/
+   19  ls ../.m2/repository/junit/junit/
+   20  notepad pom.xml
+   21  mvn verify
+   22  notepad pom.xml
+   23  mvn verify
+   24  ls
+   25  ls target/
+   26  mkdir src/main.java
+   27  mkdir -p src/main.java
+   28  notepad src/main/java
+   29  mkdir -p src/main/java
+   30  notepad src/main/java/Hello.java
+   31  mvn compile
+   32  notepad src/main/java/Hello.java
+   33  notepad pom.xml
+   34  mvn package
+   35  notepad src/main/java/Hello.java
+   36  mvn compile
+   37  mvn compile
+   38  mvn ?
+   39  mvn -?
+   40  git init
+   41  ls
+   42  ls -a
+   43  ls .git/
+   44  git status 
+   45  git push
+   46  git add pom.xml src
+   47  git status 
+   48  git add target/
+   49  git status 
+   50  git commit -m "first commit"
+   51  git checkout
+   52  Function Key 7
+   53  cd ..
+   54  ls
+   55  doskey /history
+   56  /history
+   57  history
+   58  ls
+   59  history > Documents/gitbashHistory/20200804.txt
+   60  notepad history > Documents/gitbashHistory/20200804.txt
+   61  notepad Documents/gitbashHistory/20200804.txt
+   62  notepad history > Documents/gitbashHistory/20200804.txt
+   63  mkdir Documents/gitbashHistory/
+   64  mkdir -p Documents/gitbashHistory/
+   65  ls Documents/
+   66  ls Documents/Coding\ Study/
+   67  mkdir Documents/Coding\ Study/gitbashHistory
+   68  mkdir -p Documents/Coding\ Study/gitbashHistory
+   69  mkdir -p Documents/Coding\ Study/gitbashHistory
+   70  history
+   71  history > Documents/Coding\ Study/gitbashHistory/20200804.txt
+   72  history > Documents/Coding\ Study/gitbashHistory/20200804.txt
+   73  notepad Documents/Coding\ Study/gitbashHistory/20200804.txt
+   74  history > Documents/CodingStudy/gitbashHistory/20200804.txt
+   75  git commit -m "first commit"
+   76  choco install vscode
+   77  sudo
+   78  hostory
+   79  history
+   80  history > Documents/CodingStudy/gitbashHistory/20200804.txt
+   81  exit
+   82   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+   83  exit
+   84   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+   85  history
+   86  history > Documents/CodingStudy/gitbashHistory/200804.txt
+   87  history > proj-0/bashHist/200804.txt 
+   88  exit
+   89  history
+   90  git commit "first commit"
+   91  cd proj-0/
+   92  git commit "first commit"
+   93  git commit -m "first commit"
+   94  git status
+   95  git add .
+   96  git status
+   97  git push
+   98  git pull
+   99  git push
+  100  history
+  101  history > bashHist/200804.txt 
+  102  exit
+  103  curl -v localhost:8080
+  104  curl -v google.com
+  105  curl -v https//google.com
+  106  curl -v https://www.google.com
+  107  echo "That last one worked"
+  108  history
+  109  exit
+  110   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  111  exit
+  112   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  113  exit
+  114   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  115  exit
+  116   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  117  exit
+  118   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  119  exit
+  120   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  121  exit
+  122   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  123  exit
+  124   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  125  exit
+  126   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  127  exit
+  128   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  129  exit
+  130   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  131  exit
+  132   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  133  exit
+  134   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  135  exit
+  136   c:\\Users\\Magne\\.vscode\\extensions\\vscjava.vscode-java-debug-0.27.1\\scripts\\launcher.bat "C:\\Program Files\\OpenJDK\\openjdk-11u-11.0.3+7\\bin\\java.exe" -Dfile.encoding=UTF-8 -cp C:\\Users\\Magne\\Documents\\CodingStudy\\Project0\\proj-0\\target\\classes com.matthewsgrand.NumTheFun 
+  137  exit
+  138  exit
+  139  cd proj-0/
+  140  mvn clean compile exece:java
+  141  mvn exec:java
+  142  docker --version
+  143  postgresql --version
+  144  postgres --version
+  145  mvn clean compile exec:java
+  146  exit
+  147  cd proj-0/db/
+  148  docker build -t glossary .
+  149  docker run --rm -p 5432:5432 glossary
+  150  docker run --rm -p 5432:5432 glossary
+  151  docker run --help
+  152  docker --help
+  153  docker rm glossary
+  154  docker run --rm -p 5432:5432 glossary
+  155  exit
+  156  ls
+  157  cd Documents/CodingStudy/
+  158  LS
+  159  CD Project0/
+  160  cd Project0/
+  161  cd proj-0/
+  162  mvn exec:java
+  163  exit
+  164  cd Documents/CodingStudy/Project0/proj-0/
+  165  mvn exec:java
+  166  ls
+  167  cd target/
+  168  ls
+  169  java proj-0-1.0.0.jar 
+  170  java -jar proj-0-1.0.0.jar 
+  171  java -jar c:proj-0-1.0.0.jar 
+  172  java -jar \proj-0-1.0.0.jar 
+  173  java -jar \proj-0-1.0.0.jar.com.matthewsgrand._numthefun
+  174  alias --help
+  175  alias imin='mvn exec:java'
+  176  alias
+  177  ls
+  178  cd ..
+  179  imin
+  180  exit
+  181  alias
+  182  cd Documents/CodingStudy/Project0/proj-0/
+  183  mvn exec:java
+  184  mvn exec:java
+  185  mvn exec:java
+  186  exit
+  187  cd Documents/CodingStudy/Project0/proj-0/
+  188  mvn exec:java
+  189  clean
+  190  cd
+  191  clear
+  192  cd Documents/CodingStudy/Project0/proj-0/
+  193  mvn exec:java
+  194  exit
+  195  docker ps
+  196  docker run --rm -d -p 5432:5432 postgres
+  197  docker ps
+  198  docker run --rm -it -d -p 5432:5432 postgres
+  199  docker run --rm -d -p 5432:5432 -e POSTGRES_PASSWORD=password postgres
+  200  docker ps
+  201  docker stat
+  202  docker stats
+  203  docker info
+  204  docker ps
+  205  docker inspect goofy_liskov
+  206  curl revature.com
+  207  curl --unix-socket /var/run/docker.sock http://localhost/containers/goofy_liskov/stats
+  208  curl --unix-socket "/var/run/docker.sock" "http://localhost/containers/goofy_liskov/stats"
+  209  docker ps
+  210  docker kill goofy_liskov
+  211  doxker ps
+  212  docker ps
+  213  docker remove goofy_liskov
+  214  docker ps --help
+  215  docker ps -a
+  216  exit
+  217  ssh 3.18.212.103
+  218  ssh ubuntu@3.18.212.103
+  219  ssh ubuntu@3.18.212.103 -i C:/Users/Magne/Documents/ec2/ec2-demo.pem
+  220  exit
+  221  ssh ubuntu@3.18.212.103 -i C:/Users/Magne/Documents/ec2/ec2-demo.pem
+  222  exit
+  223  chmod ?
+  224  chmod --help
+  225  ls -l C:/Users/Magne/Documents/ec2/
+  226  exit
+  227  ./run
+  228  ./run
+  229  ./run
+  230  ./run
+  231  ./run
+  232  git add .
+  233  git commit -m "Reorganized and added another Servlet"
+  234  git push
+  235  ./run
+  236  ./run
+  237  ./run
+  238  ssh --version
+  239  history
+  240  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  241  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  242  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  243  exit
+  244  dig
+  245  curl icanhazip.com
+  246  echo localhost
+  247  env
+  248  env | grep local
+  249  env | grep localhost
+  250  env | grep host
+  251  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  252  clear
+  253  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  254  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  255  exit
+  256  ssh ubuntu@3.23.61.250 -i C:/keychain/mwgLogTracker.pem
+  257  exit
+  258  minikube start --driver=virtualbox
+  259  lscpu | grep virtuali
+  260  systemconfig | grep virtuali
+  261  minikube start --no-vtx-check
+  262  minikube status
+  263  minikube delete
+  264  minikube start --driver=virtualbox
+  265  minikube start --no-vtx-check
+  266  minikube start --help
+  267  minikube status --help
+  268  minikube status
+  269  minikube start
+  270  minikube stop
+  271  minikube status
+  272  minikube delete
+  273  minikube status
+  274  minikube start
+  275  minikube status
+  276  minikube stop
+  277  minikube status
+  278  minikube start
+  279  kubectl create deployment hello-minikube --image=k8s.gcr.io/echoserver:1.10
+  280  kubectl expose deployment hello-minikube --type=NodePort --port=8080
+  281  kubectl get pod
+  282  minikube service hello-minikube --url
+  283  kubectl delete services hello-minikube
+  284  kubectl delete deployment hello-minikube
+  285  minkube stop
+  286  minikube stop
+  287  minikube delete
+  288  docker ps
+  289  kubectl create --help
+  290  kubectl get namespace
+  291  minikube start
+  292  kubectl get namespace
+  293  kubectl get pods
+  294  kubectl create deployment mwg-minikube --image=k8s.gcr.io/echoserver:1.10
+  295  kubectl get pods
+  296  kubectl get namespace
+  297  kubectl get pods --namespace=mwg-namespace
+  298  kubectl config set-context --current --namespace=mwg-name
+  299  kubectl config view --minify
+  300  kubectl config view --minify | names
+  301  kubectl config view --minify | grep names
+  302  kubectl api-resource --namespaced=true
+  303  kubectl api-resources --namespaced=true
+  304  kubectl api-resources --namespaced=false
+  305  kubectl get pods
+  306  kubectl get pods --namespace=mwg-namespace
+  307  kubectl get namespace
+  308  kubectl get pods --namespace=default
+  309  kubectl create deployment mwg-minikube --image=k8s.gcr.io/echoserver:1.10
+  310  kubectl config set-context --current --namespace=default
+  311  kubectl get pods
+  312  kubectl stop
+  313  kubectl --help
+  314  kubectl get pods
+  315  kubectl delete
+  316  history
+  317  minikube stop
+  318  kubectl get pods
+  319  exit
+  320  docker ps
+  321  docker ps
+  322  exit
+  323  minikube start
+  324  kubectl get deployment,pods,service
+  325  kubectl apply -f deployment.yaml 
+  326  kubectl apply -f service.yaml 
+  327  kubectl get deployment,pods,service
+  328  echo $(minikube ip)
+  329  kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+  330  kubectl expose deployment/jekudo --type="NodePort" --port 8080
+  331  kubectl get deployment,pods,service
+  332  echo $(minikube ip)
+  333  kubectl delete service jeduko
+  334  kubectl delete service jekudo
+  335  kubectl delete service jekudo-ser
+  336  kubectl get deployment,pods,service
+  337  kubectl expose deployment/jekudo --type="NodePort" --port 8080
+  338  kubectl get deployment,pods,service
+  339  kubectl describe services/jekodu
+  340  kubectl describe services/jekudo
+  341  export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')
+  342  export NODE_PORT=$(kubectl get services/jekudo -o go-template='{{(index .spec.ports 0).nodePort}}')
+  343  echo NODE_PORT=$NODE_PORT
+  344  curl $(minikube ip):$NODE_PORT
+  345  docker ps
+  346  docker inspect 9b766bf8fcda
+  347  docker inspect 9b766bf8fcda | grep IP
+  348  ping 172.17.0.2
+  349  ping google.com
+  350  docker ps
+  351  docker inspect 63a0a26a256d | grep IP
+  352  ping 172.17.0.3
+  353  curl $(minikube ip):$NODE_PORT
+  354  kubectl apply -f deployment.yaml 
+  355  kubectl get deployment,pods,service
+  356  export NODE_PORT=$(kubectl get services/jekudo -o go-template='{{(index .spec.ports 0).nodePort}}')
+  357  curl $(minikube ip):$NODE_PORT
+  358  kubectl get deployment,pods,service
+  359  kubectl describe pod
+  360  kubectl describe pod | grep IP
+  361  curl $(minikube ip):$NODE_PORT
+  362  curl 172.18.0.6:$NODE_PORT
+  363  kubectl apply -f service.yaml 
+  364  kubectl get deployment,pods,service
+  365  kubectl delete service/jekudo
+  366  kubectl get deployment,pods,service
+  367  kubectl apply -f service.yaml 
+  368  kubectl get deployment,pods,service
+  369  export NODE_PORT=$(kubectl get services/jekudo -o go-template='{{(index .spec.ports 0).nodePort}}')
+  370  curl $(minikube ip):$NODE_PORT
+  371  curl 172.18.0.6:$NODE_PORT
+  372  kubectl describe service jekudo
+  373  minikube service jekudo --url
+  374  kubectl get deployment,pods,service
+  375  minikube service jekudo --url
+  376  minikube service service/jekudo --url
+  377  minikube service jekudo
+  378  history | grep expose
+  379  docker ps
+  380  kubectl exec --help
+  381  kubectl exec bash
+  382  kubectl exec bash ls
+  383  kubectl exec -- ls
+  384* kubectl get jekudo-845cf9c5f7-b6gr2 pod
+  385  kubectl exec jekudo-845cf9c5f7-b6gr2 -- ls
+  386  kubectl exec jekudo-845cf9c5f7-b6gr2 -- ping google.com
+  387  kubectl exec jekudo-845cf9c5f7-b6gr2 -- ls -al
+  388  kubectl exec jekudo-845cf9c5f7-b6gr2 -- ls -al run/
+  389  kubectl exec jekudo-845cf9c5f7-b6gr2 -- vim .dockerenv
+  390  kubectl exec jekudo-845cf9c5f7-b6gr2 -- nano .dockerenv
+  391  kubectl exec jekudo-845cf9c5f7-b6gr2 -- code .dockerenv
+  392  kubectl exec jekudo-845cf9c5f7-b6gr2 -- echo .dockerenv
+  393  kubectl exec jekudo-845cf9c5f7-b6gr2 --help
+  394  kubectl exec jekudo-845cf9c5f7-b6gr2 -i
+  395  kubectl exec jekudo-845cf9c5f7-b6gr2 -i -t
+  396  kubectl exec jekudo-845cf9c5f7-b6gr2 -- cat .dockerenv
+  397  kubectl describe pod/jekudo-845cf9c5f7-b6gr2 -n default
+  398  kubectl delete deployment
+  399  kubectl delete deployment jekudo
+  400  kubectl delete service jekudo
+  401  kubectl get
+  402  kubectl get deployment,pod,service
+  403  minikube stop
+  404  history | cat ClIHist/hist.txt
+  405  touch CLIHist/hist.txt
+  406  history | cat ClIHist/hist.txt
+  407  history
+  408  history >> ClIHist/hist.txt

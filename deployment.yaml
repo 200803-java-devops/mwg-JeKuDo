@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jekudo
+  namespace: default
 spec:
   selector:
     matchLabels:
@@ -23,6 +24,7 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8080
+          hostPort: 8080
         - containerPort: 50000
         env:
           - name: DOCKER_HOST
