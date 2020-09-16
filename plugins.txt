@@ -1,4 +1,6 @@
 configuration-as-code
+configuration-as-code-groovy
+configuration-as-code-secret-ssm
 git
 github
 junit
