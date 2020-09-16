@@ -1,2 +1,3 @@
-./s/dbuild
-./s/drun
+chmod 764 ./s/dbuild ./s/drun
+echo ./s/dbuild
+echo ./s/drun
