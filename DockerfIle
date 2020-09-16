@@ -1,12 +1,12 @@
 FROM jenkins/jenkins:lts
 # Copies [first file, the local one] to [second path/file this place in the container]
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
-# COPY jenkins.yaml /var/jenkins_conf/jenkins.yaml
+COPY jenkins.yaml /var/jenkins_conf/jenkins.yaml
 ENV JAVA_OPTS "-Djenkins.install.runSetupWizard=false"
 ENV JENKINS_USER admin
 ENV JENKINS_PASS admin
 ENV DOCKERVERSION=18.03.1-ce
-# ENV CASC_JENKINS_CONFIG /var/jenkins_conf
+ENV CASC_JENKINS_CONFIG /var/jenkins_conf
 
 # Run from Root
 USER root

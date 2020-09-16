@@ -1,5 +1,6 @@
 configuration-as-code
 git
+github
 junit
 pipeline-model-definition
 pipeline-stage-step
