@@ -2,6 +2,9 @@ FROM jenkins/jenkins:lts
 # Copies [first file, the local one] to [second path/file this place in the container]
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 COPY jenkins.yaml /var/jenkins_conf/jenkins.yaml
+COPY jenkins_jobs.ini /etc/jenkins_jobs/jenkins_jobs.ini
+COPY fsjob.xml /jobs/fsjob.xml
+
 ENV JAVA_OPTS "-Djenkins.install.runSetupWizard=false"
 ENV JENKINS_USER admin
 ENV JENKINS_PASS admin
@@ -10,6 +13,7 @@ ENV CASC_JENKINS_CONFIG /var/jenkins_conf
 
 # Run from Root
 USER root
+
 # Update linux
 RUN apt-get update
 # Install maven
@@ -22,7 +26,9 @@ RUN rm docker-${DOCKERVERSION}.tgz
 RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
 RUN chmod +x ./kubectl
 RUN mv ./kubectl /usr/local/bin/kubectl
+
 # Stop running from Root
 USER jenkins
 
+# Install Plugins
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
