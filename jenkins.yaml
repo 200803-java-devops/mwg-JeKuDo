@@ -6,6 +6,9 @@ jenkins:
     standard:
       excludeClientIPFromCrumb: false
   disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "jenkins.diagnostics.SecurityIsOffMonitor"
+  - "jenkins.diagnostics.RootUrlNotSetMonitor"
   labelAtoms:
   - name: "master"
   markupFormatter: "plainText"
@@ -72,6 +75,14 @@ tool:
     installations:
     - home: "git"
       name: "Default"
+  maven:
+    installations:
+    - name: "maven3"
+      properties:
+      - installSource:
+          installers:
+          - maven:
+              id: "3.6.3"
   pipelineMaven:
     triggerDownstreamUponResultAborted: false
     triggerDownstreamUponResultFailure: false
